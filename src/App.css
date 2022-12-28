@@ -23,16 +23,70 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.treedetail{
+  max-width: 25%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.soft{
+   margin-top: 20px;
+   width: 50vh;
+   height: 25px;
+  padding: 10px;
+  border-radius: 25px;
+  border:1px solid rgb(163, 160, 160)
 }
+.soft:active {
+  background-color:  #ADD8E6;
+  border:2px solid #526bdb;
+}
+/* .soft:focus{
+  background-color:  #ADD8E6;
+  border:2px solid #526bdb;
+} */
+.inner{
+  width: 50vh;
+  margin-left: 25rem;
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: -3rem;
+}
+.line{
+/* padding-left: 7.7rem; */
+margin-left: 17.4rem;
+margin-top: -1rem;
+height: 1px;
+width:21.5vh;
+line-height: 0.1rem;
+text-align: center;
+background: #526bdb;
+}
+.number{
+background-color: #fff;
+padding: 0 10px;
+border-radius: 10%;
+background-color: #526bdb;
+}
+.softdetail{
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+ /* margin-top:20px; */
+ padding: 10px;
+ border-radius: 25px;
+ border:1px solid rgb(163, 160, 160)
+}
+.attop{
+  margin-top: -7.4rem;
+}
+label{
+ text-decoration: none;
+ background:none;
+}
+/* .linee{
+  padding-left: 7rem;
+  margin-left: 18rem;
+  margin-top: -1rem;
+  height: 1px;
+  line-height: 0.1rem;
+  text-align: center;
+  background: #526bdb;
+  } */
